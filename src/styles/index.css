@@ -1,12 +1,33 @@
+.lightContainer{
+    background: black;
+    border-radius: 5%;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-/* 
+.light{
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    margin: 10px;
+}
 
-    You can write your own styles here...
+.red{
+    background: red;
     
+}
+.yellow{
+    background: yellow;
     
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
+}
+.green{
+    background: green;
     
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+.orange{
+    background: rgb(238, 139, 11);
+    margin: 7px;
+}
